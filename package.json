@@ -9,21 +9,25 @@
   "private": true,
   "dependencies": {
     "@solana-developers/preset-next": "3.0.1",
+    "@solana/actions": "^1.4.0",
     "@solana/spl-token": "0.4.6",
     "@solana/wallet-adapter-base": "^0.9.23",
     "@solana/wallet-adapter-react": "^0.15.35",
     "@solana/wallet-adapter-react-ui": "^0.9.35",
-    "@solana/web3.js": "1.91.9",
+    "@solana/web3.js": "^1.91.9",
     "@tabler/icons-react": "3.5.0",
     "@tailwindcss/typography": "0.5.13",
     "@tanstack/react-query": "5.40.0",
     "@tanstack/react-query-next-experimental": "5.40.0",
     "bs58": "5.0.0",
     "buffer": "6.0.3",
+    "cors": "^2.8.5",
     "daisyui": "4.11.1",
     "encoding": "0.1.13",
+    "express": "^4.19.2",
     "jotai": "2.8.3",
     "next": "14.0.4",
+    "node-fetch": "^3.3.2",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-hot-toast": "2.4.1",
@@ -55,5 +59,6 @@
     "prettier": "^2.6.2",
     "tailwindcss": "3.2.7",
     "typescript": "~5.4.2"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
